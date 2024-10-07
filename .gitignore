@@ -1,0 +1,5 @@
+bootrom.h
+esp2elf
+*.o
+*.elf
+
