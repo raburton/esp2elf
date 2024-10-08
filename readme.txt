@@ -14,8 +14,9 @@ reverse engineer a ROM, you'll be able to fix any glitches that occur here.
 Building
 --------
 Makefile included.
-Builds on Linux, untested anywhere else.
-Requires libelf development package (libelf-dev on debian), and xxd.
+Linux: Requires xdd and libelf dev package (apt-get install libelf-dev xxd).
+Windows: Tested with MSYS2, requires packages: make, mingw-w64-ucrt-x86_64-gcc,
+         and mingw-w64-x86_64-libelf. Also need a windows version of xxd.
 
 Usage
 -----
@@ -59,4 +60,3 @@ Inspiration: https://github.com/jsandin/esp-bin2elf
 bootrom.bin: https://github.com/jcmvbkbc/esp-elf-rom
 Bootrom symbols: https://github.com/espressif/ESP8266_RTOS_SDK
 Essential help: https://sourceforge.net/projects/elftoolchain/files/Documentation/libelf-by-example/
-
