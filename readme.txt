@@ -16,7 +16,7 @@ Building
 Makefile included.
 Linux: Requires xdd and libelf dev package (apt-get install libelf-dev xxd).
 Windows: Tested with MSYS2, requires packages: make, mingw-w64-ucrt-x86_64-gcc,
-         and mingw-w64-x86_64-libelf. Also need a windows version of xxd.
+         and mingw-w64-ucrt-x86_64-libelf. Also need a windows version of xxd.
 
 Usage
 -----
